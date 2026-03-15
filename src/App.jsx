@@ -1,19 +1,17 @@
-import EmployeeContainer from "./components/EmployeeContainer";
-import ProductContainer from "./components/ProductContainer";
-import SkillContainer from "./components/SkillContainer";
-import StudentContainer from "./components/StudentContainer";
-import UserContainer from "./components/UserContainer";
-
-
+import ChangeName from "./components/ChangeName";
+import Counter from "./components/Counter";
+import StatusToggle from "./components/StatusToggle";
+import UpdateAge from "./components/UpdateAge";
+import UpdateProfile from "./components/UpdateProfile";
 
 function App() {
   return (
     <div>
-     <UserContainer/>
-      <ProductContainer/>
-      <StudentContainer/>
-      <SkillContainer/>
-      <EmployeeContainer/>
+    <Counter/>
+    <StatusToggle/>
+    <ChangeName/>
+    <UpdateAge/>
+    <UpdateProfile/>
     </div>
   );
 }
